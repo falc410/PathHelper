@@ -11,9 +11,15 @@
 		F611907114A0AF7B0028F022 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F611906F14A0AF7B0028F022 /* InfoPlist.strings */; };
 		F611907314A0AF7B0028F022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F611907214A0AF7B0028F022 /* main.m */; };
 		F611907714A0AF7B0028F022 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F611907514A0AF7B0028F022 /* Credits.rtf */; };
-		F611907A14A0AF7B0028F022 /* ACDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F611907914A0AF7B0028F022 /* ACDocument.m */; };
-		F611907D14A0AF7B0028F022 /* ACDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = F611907B14A0AF7B0028F022 /* ACDocument.xib */; };
-		F611908014A0AF7C0028F022 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F611907E14A0AF7C0028F022 /* MainMenu.xib */; };
+		F611908E14A0AFA70028F022 /* ImageViewGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F611908714A0AFA70028F022 /* ImageViewGridLayer.m */; };
+		F611908F14A0AFA70028F022 /* ACDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = F611908914A0AFA70028F022 /* ACDocument.m */; };
+		F611909014A0AFA70028F022 /* PrioritySplitViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F611908B14A0AFA70028F022 /* PrioritySplitViewDelegate.m */; };
+		F611909114A0AFA70028F022 /* SWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F611908D14A0AFA70028F022 /* SWImageView.m */; };
+		F611909514A0AFCA0028F022 /* drop_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = F611909214A0AFCA0028F022 /* drop_sprite.png */; };
+		F611909614A0AFCA0028F022 /* ACDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = F611909314A0AFCA0028F022 /* ACDocument.xib */; };
+		F611909714A0AFCA0028F022 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F611909414A0AFCA0028F022 /* MainMenu.xib */; };
+		F611909A14A0B0130028F022 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F611909814A0B0130028F022 /* Quartz.framework */; };
+		F611909B14A0B0130028F022 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F611909914A0B0130028F022 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,24 @@
 		F611906914A0AF7B0028F022 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F611906A14A0AF7B0028F022 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F611906B14A0AF7B0028F022 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F611906E14A0AF7B0028F022 /* PathHelper-Info.plist */ = {isa = PBXFileReference; path = "PathHelper-Info.plist"; sourceTree = "<group>"; };
+		F611906E14A0AF7B0028F022 /* PathHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PathHelper-Info.plist"; sourceTree = "<group>"; };
 		F611907014A0AF7B0028F022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F611907214A0AF7B0028F022 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F611907414A0AF7B0028F022 /* PathHelper-Prefix.pch */ = {isa = PBXFileReference; path = "PathHelper-Prefix.pch"; sourceTree = "<group>"; };
+		F611907414A0AF7B0028F022 /* PathHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PathHelper-Prefix.pch"; sourceTree = "<group>"; };
 		F611907614A0AF7B0028F022 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F611907814A0AF7B0028F022 /* ACDocument.h */ = {isa = PBXFileReference; path = ACDocument.h; sourceTree = "<group>"; };
-		F611907914A0AF7B0028F022 /* ACDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACDocument.m; sourceTree = "<group>"; };
-		F611907C14A0AF7B0028F022 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACDocument.xib; sourceTree = "<group>"; };
-		F611907F14A0AF7C0028F022 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F611908614A0AFA70028F022 /* ImageViewGridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewGridLayer.h; sourceTree = "<group>"; };
+		F611908714A0AFA70028F022 /* ImageViewGridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewGridLayer.m; sourceTree = "<group>"; };
+		F611908814A0AFA70028F022 /* ACDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACDocument.h; sourceTree = "<group>"; };
+		F611908914A0AFA70028F022 /* ACDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACDocument.m; sourceTree = "<group>"; };
+		F611908A14A0AFA70028F022 /* PrioritySplitViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrioritySplitViewDelegate.h; sourceTree = "<group>"; };
+		F611908B14A0AFA70028F022 /* PrioritySplitViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrioritySplitViewDelegate.m; sourceTree = "<group>"; };
+		F611908C14A0AFA70028F022 /* SWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWImageView.h; sourceTree = "<group>"; };
+		F611908D14A0AFA70028F022 /* SWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWImageView.m; sourceTree = "<group>"; };
+		F611909214A0AFCA0028F022 /* drop_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop_sprite.png; sourceTree = "<group>"; };
+		F611909314A0AFCA0028F022 /* ACDocument.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACDocument.xib; sourceTree = "<group>"; };
+		F611909414A0AFCA0028F022 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		F611909814A0B0130028F022 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		F611909914A0B0130028F022 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F611909A14A0B0130028F022 /* Quartz.framework in Frameworks */,
+				F611909B14A0B0130028F022 /* QuartzCore.framework in Frameworks */,
 				F611906714A0AF7B0028F022 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +65,8 @@
 		F611905714A0AF7B0028F022 = {
 			isa = PBXGroup;
 			children = (
+				F611909814A0B0130028F022 /* Quartz.framework */,
+				F611909914A0B0130028F022 /* QuartzCore.framework */,
 				F611906C14A0AF7B0028F022 /* PathHelper */,
 				F611906514A0AF7B0028F022 /* Frameworks */,
 				F611906314A0AF7B0028F022 /* Products */,
@@ -84,10 +103,17 @@
 		F611906C14A0AF7B0028F022 /* PathHelper */ = {
 			isa = PBXGroup;
 			children = (
-				F611907814A0AF7B0028F022 /* ACDocument.h */,
-				F611907914A0AF7B0028F022 /* ACDocument.m */,
-				F611907B14A0AF7B0028F022 /* ACDocument.xib */,
-				F611907E14A0AF7C0028F022 /* MainMenu.xib */,
+				F611908614A0AFA70028F022 /* ImageViewGridLayer.h */,
+				F611908714A0AFA70028F022 /* ImageViewGridLayer.m */,
+				F611908814A0AFA70028F022 /* ACDocument.h */,
+				F611908914A0AFA70028F022 /* ACDocument.m */,
+				F611908A14A0AFA70028F022 /* PrioritySplitViewDelegate.h */,
+				F611908B14A0AFA70028F022 /* PrioritySplitViewDelegate.m */,
+				F611908C14A0AFA70028F022 /* SWImageView.h */,
+				F611908D14A0AFA70028F022 /* SWImageView.m */,
+				F611909214A0AFCA0028F022 /* drop_sprite.png */,
+				F611909314A0AFCA0028F022 /* ACDocument.xib */,
+				F611909414A0AFCA0028F022 /* MainMenu.xib */,
 				F611906D14A0AF7B0028F022 /* Supporting Files */,
 			);
 			path = PathHelper;
@@ -157,8 +183,9 @@
 			files = (
 				F611907114A0AF7B0028F022 /* InfoPlist.strings in Resources */,
 				F611907714A0AF7B0028F022 /* Credits.rtf in Resources */,
-				F611907D14A0AF7B0028F022 /* ACDocument.xib in Resources */,
-				F611908014A0AF7C0028F022 /* MainMenu.xib in Resources */,
+				F611909514A0AFCA0028F022 /* drop_sprite.png in Resources */,
+				F611909614A0AFCA0028F022 /* ACDocument.xib in Resources */,
+				F611909714A0AFCA0028F022 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,7 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F611907314A0AF7B0028F022 /* main.m in Sources */,
-				F611907A14A0AF7B0028F022 /* ACDocument.m in Sources */,
+				F611908E14A0AFA70028F022 /* ImageViewGridLayer.m in Sources */,
+				F611908F14A0AFA70028F022 /* ACDocument.m in Sources */,
+				F611909014A0AFA70028F022 /* PrioritySplitViewDelegate.m in Sources */,
+				F611909114A0AFA70028F022 /* SWImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,22 +221,6 @@
 				F611907614A0AF7B0028F022 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		F611907B14A0AF7B0028F022 /* ACDocument.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F611907C14A0AF7B0028F022 /* en */,
-			);
-			name = ACDocument.xib;
-			sourceTree = "<group>";
-		};
-		F611907E14A0AF7C0028F022 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F611907F14A0AF7C0028F022 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
