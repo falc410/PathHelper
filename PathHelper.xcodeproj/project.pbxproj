@@ -20,6 +20,7 @@
 		F611909714A0AFCA0028F022 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F611909414A0AFCA0028F022 /* MainMenu.xib */; };
 		F611909A14A0B0130028F022 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F611909814A0B0130028F022 /* Quartz.framework */; };
 		F611909B14A0B0130028F022 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F611909914A0B0130028F022 /* QuartzCore.framework */; };
+		F61618C414A1DDE0006677A5 /* README in Resources */ = {isa = PBXBuildFile; fileRef = F61618C314A1DDE0006677A5 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		F611909414A0AFCA0028F022 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		F611909814A0B0130028F022 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		F611909914A0B0130028F022 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F61618C314A1DDE0006677A5 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				F611909314A0AFCA0028F022 /* ACDocument.xib */,
 				F611909414A0AFCA0028F022 /* MainMenu.xib */,
 				F611906D14A0AF7B0028F022 /* Supporting Files */,
+				F61618C314A1DDE0006677A5 /* README */,
 			);
 			path = PathHelper;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				F611909514A0AFCA0028F022 /* drop_sprite.png in Resources */,
 				F611909614A0AFCA0028F022 /* ACDocument.xib in Resources */,
 				F611909714A0AFCA0028F022 /* MainMenu.xib in Resources */,
+				F61618C414A1DDE0006677A5 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +318,7 @@
 				F611908514A0AF7C0028F022 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

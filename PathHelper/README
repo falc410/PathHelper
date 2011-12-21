@@ -1,0 +1,11 @@
+PathHelper is a tool to be used for game development, it's based on VertexHelper.
+You can draw animation paths onto images (TextureAtlas supported) and it will output the coordinates to XML.
+Currently this the output is very specific to our development.
+
+TODO:
+    - Add Undo / Redo functionality (medium priority)
+    - Add ability to save to XML file (high priority)
+    - Add ability to load existing XML file (high priority)
+    - Add ability to delete specific points or sections (low priority)
+    - Add ability to move points after it has been placed (low priority)
+    - Other stuff for better usuability
